@@ -64,3 +64,22 @@
   width: 800px;
   height: 500px;
 }
+
+.r-p-star {
+  color: pink;
+  font-size: 60px;
+  margin-top: 50px;
+}
+
+.r-p-s-5 {
+  display: flex;
+  flex-direction: column;
+  font-size: 38px;
+  border-left: 1px #AAA solid;
+  margin-left: 20px;
+}
+
+.rp-s {
+  display: flex;
+  margin: 50px 500px;
+}
