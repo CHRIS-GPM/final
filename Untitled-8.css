@@ -39,21 +39,29 @@
    font-family: sans-serif;
    font-weight: bold;
    font-size: 24px;
-   margin: 25px 30px;
+   margin: 50px 60px;
+   width: 50px;
  }
 
  .shop-p-num {
    font-family: sans-serif;
    font-weight: bold;
    font-size: 24px;
-   margin: 25px 5px;
+   margin: 50px 5px;
+   width: 70px;
  }
 
-
-
  .shop-p-bot {
-   margin-right: 15px;
-   margin-bottom: 15px;
+   margin: 50px 50px;
+ }
+
+ .shop-p-total {
+   color: red;
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 24px;
+   margin: 50px 50px;
+   width: 50px;
  }
 
  .shop-title {
