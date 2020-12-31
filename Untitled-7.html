@@ -6,66 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="Untitled-7.css">
 </head>
-<style>
-  * {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-
-  .product-root {}
-
-  .product-botton {
-    background-color: black;
-    justify-content: space-around;
-  }
-
-  .product-botton>nav {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .product-botton>nav>a {
-    font-size: 24px;
-    font-family: sans-serif;
-    color: white;
-    text-decoration: none;
-  }
-
-  .r-p-item {
-    display: none;
-  }
-
-  .pro-body {
-    margin: 100px 30px;
-  }
-
-  .pro-img {
-    height: 400px;
-    width: 500px;
-  }
-
-
-  .pro-img-dir {
-    float: left;
-    margin-left: 100px;
-  }
-
-  .pro-p-dir {
-    float: right;
-    margin-right: 100px;
-  }
-
-  .pro-price {
-    color: red;
-    font-size: 42px;
-  }
-
-  .pro-name {
-    font-size: 50px;
-  }
-</style>
 
 <body>
   <!-- Navbar (Sits on top) -->
@@ -89,6 +31,10 @@
       <div class="pro-p-dir">
         <div class="pro-name">橘</div>
         <div class="pro-price">$200</div>
+        <div>
+          <button class="w3-button w3-black">加入購物車</button>
+          <button class="w3-button w3-black">直接購買</button>
+        </div>
       </div>
     </div>
     <div class="product-root">
@@ -100,9 +46,12 @@
           <a href="#" onclick="clickhere(this)" value="buyer">買家秀</a>
         </nav>
       </div>
-      <div class="product-pro">
-        <div id="product" class="r-p-item">
+      <div class="r-p">
+        <div id="product" class="r-p-item-1">
           <div>東西好！！</div>
+          <div>
+            <img src="pic/12.JPG" class="p-p-img">
+          </div>
         </div>
         <div id="opinion" class="r-p-item">
           <div>不錯！！</div>
@@ -117,11 +66,12 @@
       </div>
     </div>
   </div>
+
   <!-- Footer -->
   <footer class="w3-center w3-black w3-panel w3-padding-16">
     <p>Powered by <a href="" title="W3.CSS" target="_blank" class="w3-hover-text-green">Copyright ©-2020 css</a></p>
   </footer>
-  </div>
+
   <script>
     var arraypro = ["product", "opinion", "stars", "buyer"]
 
