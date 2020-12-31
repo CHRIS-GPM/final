@@ -1,0 +1,48 @@
+ * {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+
+ body {
+   background-color: rgb(236, 234, 234);
+ }
+
+ .shop-body {
+   margin: 100px 200px;
+   border: 1px #AAA solid;
+   padding: 20px 20px;
+ }
+
+
+ .shop-body-root {
+   display: flex;
+   background-color: white;
+   padding: 15px 20px;
+   margin-bottom: 10px;
+ }
+
+ .shop-body-root-left {
+   margin-left: 5px;
+ }
+
+ .shop-body-root-right {
+   display: flex;
+ }
+
+ .shop-pic {
+   width: 200px;
+   height: 160px;
+ }
+
+ .shop-word {}
+
+ .s-b-t {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .shop-b-final {
+   margin-top: 30px;
+   float: right;
+ }

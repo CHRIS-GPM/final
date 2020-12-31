@@ -6,37 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="Untitled-8.css">
 </head>
-<style>
-  * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
 
-  .shop-body {
-    margin: 100px 30px;
-
-  }
-
-  .shop-body-root {
-    display: flex;
-  }
-
-  .shop-body-root-left {
-    float: left;
-    margin-left: 100px;
-  }
-
-  .shop-body-root-right {
-    display: flex;
-  }
-
-  .shop-pic {
-    width: 200px;
-    height: 160px;
-  }
-</style>
 
 <body>
   <!-- Navbar (Sits on top) -->
@@ -55,7 +27,7 @@
   <div class="shop-body">
     <div>我的購物車</div>
     <hr>
-    <div style="display: flex; flex-direction: column;">
+    <div class="s-b-t">
       <div class="shop-body-root">
         <div class="shop-body-root-left">
           <img src="pic/16.JPG" class="shop-pic">
@@ -65,27 +37,39 @@
           <div>$200</div>
           <div>數量</div>
         </div>
+        <div>
+          <input type="number" max="10" min="1" value="1">
+        </div>
+        <div>
+          <button class="w3-button w3-black">刪除</button>
+        </div>
       </div>
       <div class="shop-body-root">
         <div class="shop-body-root-left">
           <img src="pic/17.JPG" class="shop-pic">
         </div>
         <div class="shop-body-root-right">
-          <div>12/25</div>
+          <div class="shop-word">12/25</div>
           <div>$100</div>
           <div>數量</div>
         </div>
         <div>
           <input type="number" max="10" min="1" value="1">
         </div>
+        <div>
+          <button class="w3-button w3-black">刪除</button>
+        </div>
       </div>
     </div>
+    <div class="shop-b-final">
+      <button class="w3-button w3-black">結賬</button>
+    </div>
   </div>
+
   <!-- Footer -->
   <footer class="w3-center w3-black w3-panel w3-padding-16">
     <p>Powered by <a href="" title="W3.CSS" target="_blank" class="w3-hover-text-green">Copyright ©-2020 css</a></p>
   </footer>
-  </div>
 </body>
 
 </html>
