@@ -39,8 +39,8 @@
    font-family: sans-serif;
    font-weight: bold;
    font-size: 24px;
-   margin: 50px 60px;
-   width: 50px;
+   margin: 50px 30px;
+   width: 120px;
  }
 
  .shop-p-num {
@@ -48,11 +48,11 @@
    font-weight: bold;
    font-size: 24px;
    margin: 50px 5px;
-   width: 70px;
+   width: 60px;
  }
 
  .shop-p-bot {
-   margin: 50px 50px;
+   margin: 50px 30px;
  }
 
  .shop-p-total {
@@ -60,7 +60,7 @@
    font-family: sans-serif;
    font-weight: bold;
    font-size: 24px;
-   margin: 50px 50px;
+   margin: 50px 30px;
    width: 50px;
  }
 
